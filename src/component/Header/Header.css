@@ -1,0 +1,16 @@
+header{
+    box-shadow: 1px 1px 10px #1e1e1e;
+    background-color:  rgb(49, 99, 122);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header a{
+    color: #6b93a6;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    
+}

@@ -5,11 +5,9 @@ body{
 }
 .todo-container{
     width: 350px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
     text-align: center;
+    margin: auto;
+    margin-top: 5rem;
 }
 .input-section{
     background-color: rgb(49, 99, 122);
@@ -52,14 +50,28 @@ ul li{
     box-shadow: 1px 1px 10px #1e1e1e;
     font-weight: bold;
     display: flex;
-    overflow: initial;
+    overflow: inherit;
+
 }
-i {
+ul li div{
 	text-align: right;
     flex: 1;
-    transition: 0.6s ease-in-out;
     align-items: center;
+    cursor: pointer;
+    margin-right: 5px;
 }
-i:hover{
-    transform: scale(102%);
+ul li div i{
+    margin-left: 13px;
+}    
+#trash {
+    transition: 0.6s ease-in-out;
+}
+#trash:hover{
+    transform: scale(150%);
+}
+#edit {
+    transition: 0.6s ease-in-out;
+}
+#edit:hover{
+    transform: scale(150%);
 }

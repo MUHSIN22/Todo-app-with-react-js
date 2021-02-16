@@ -1,0 +1,25 @@
+body{
+    width: 100%;
+}
+.about-content {
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px #1e1e1e;
+    background-color:  rgb(49, 99, 122);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:  #6b93a6;
+    font-size: large;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+#copy{
+    text-align: center;
+}
+.d-flex {
+	display: flex !important;
+	width: 100%;
+}

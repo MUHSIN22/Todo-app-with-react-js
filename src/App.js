@@ -1,13 +1,18 @@
 import React from 'react'
+import About from './component/About/About'
+import Header from './component/Header/Header'
 import TodoApp from './component/TodoApp/TodoApp'
 import "./component/TodoApp/TodoApp.css"
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <TodoApp/>
-    </div>
-  );
+
+const App = () => {
+    return (
+        <Router>
+            <Header />
+            <Route path="/" exact component={TodoApp} />
+            <Route path="/about" component={About} />
+        </Router>
+    )
 }
-
 export default App;
